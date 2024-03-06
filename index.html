@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleurait</title>
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./recursosmain/SVG/logoldpi.svg">
+</head>
+<div id="cursor"></div>
+<div id="cursor-border"></div>
+
+<body>
+
+    <header>
+        <div class="header__responsive">
+
+         <!--    HEADER RESPONSIVE  -->
+
+            <button type="button" class="boton__responsive" data-cursor="pointer"><i class="fa-solid fa-bars" style="color: #ffffff;" id="b1"></i></button>
+            <ul class="list__responsive indexlist">
+                <li class="listItem__responsive"> <a href="#" class="bllink" data-cursor="pointer"> Main </a></li>
+                <li class="listItem__responsive"> <a href="./aboutme/aboutme.html" class="bllink"  data-cursor="pointer"> About me </a></li>
+                <li class="listItem__responsive"> <a href="./grdesign/grdesign.html" class="bllink" data-cursor="pointer">Graphic Design </a> </li>
+                <li class="listItem__responsive"> <a href="./magazine/magazine.html" class="bllink" data-cursor="pointer"> Editorial Design </a> </li>
+            </ul>
+
+        </div>
+
+                 <!--    HEADER SHOW  -->
+
+        <div class="header__show">
+            <a href="./aboutme/aboutme.html" class="headershow__content" data-cursor="pointer"> <span> About
+                    me</span></a>
+            <a href="./index.html" class="headershow__logo   indexlogo" data-cursor="pointer"> <img
+                    src="./recursosmain/logochrome.png" alt="logo"></a>
+            <div class="headershow__contentjs" data-cursor="pointer"><span> Works </span> </div>
+
+            </ul>
+        </div>
+
+               <!--    HEADER HIDDEN  -->
+
+
+        <div class="header__hidden">
+            <ul class="list__hidden">
+                <li class="headerhidden__content"> <a href="./grdesign/grdesign.html" class="hiddenlink"  data-cursor="pointer"> Graphic Design </a> </li>
+                <li class="headerhidden__content"> <a href="./magazine/magazine.html" class="hiddenlink" data-cursor="pointer">Editorial Design </a> </li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="heroA">
+            <video autoplay muted disablepictureinpicture loop class="heroVideoA">
+                <source src="./index/recursos/herovideo.mp4" type="video/mp4">
+                Tu navegador no soporta videos en HTML5
+            </video>
+            <div class="heroContenido">
+                <img src="./index/recursos/title02.png" class="heroTitle" alt="title">
+                <div class="undertext">
+                    <img src="./index/recursos/title.png" alt="title">
+                    <p>  // Portfolio // 2024 // Based in Seville </p></div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <button type="button" class="boton__footer" data-cursor="pointer">
+            <a href="https://www.pinterest.es/pleurait/_created" target="_blank"> <i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></a>
+        </button>
+        <button type="button" class="boton__footer"  data-cursor="pointer"> <a href="https://twitter.com/pleurait_" target="_blank"> <i
+                    class="fa-brands fa-twitter"  style="color: #ffffff;"></i></a> </button>
+        <button type="button" class="boton__footer"  data-cursor="pointer"> <a href="https://www.tiktok.com/@pleurait" target="_blank"> <i
+                    class="fa-brands fa-tiktok"  style="color: #ffffff;"></i></a> </button>
+
+    </footer>
+</body>
+<script src="./index/index.js"></script>
+
+</html>
