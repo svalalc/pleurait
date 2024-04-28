@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial Design</title>
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../recursosmain/SVG/logoldpi.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+
+    <header>
+
+            <!-- HEADER QUE SE MUESTRA  -->
+            <div class="header__show">
+                <ul class="list__show">
+                    <li><a href="../aboutme/aboutme.html" data-cursor="pointer"> About me</a></li>
+                    <li><a href="../index.html" data-cursor="pointer"> <img src="../recursosmain/logochromeddark.png"
+                                alt="logo" class="mainlogo"></a> </li>
+                    <li><span class="headershow__contentjs" data-cursor="pointer"> Works</span></li>
+                </ul>
+            </div>
+
+            <!-- HEADER ESCONDIDO -->
+
+            <div class="header__hidden">
+                <ul class="list__hidden">
+                    <li> <a href="../grdesign/grdesign.html" data-cursor="pointer"> Graphic Design </a> </li>
+                    <li> <a href="#" data-cursor="pointer">Editorial Design </a> </li>
+                </ul>
+            </div>
+
+            <!-- HEADER RESPONSIVE -->
+            <div class="header__responsive">
+                <button type="button" class="boton__responsive" data-cursor="pointer"><i class="fa-solid fa-bars"
+                        style="color: #ffffff;" id="b1"></i></button>
+
+                <ul class="list__responsive">
+                    <li> <a href="../index.html" data-cursor="pointer"> Main </a></li>
+                    <li> <a href="../aboutme/aboutme.html" data-cursor="pointer"> About me </a></li>
+                    <li> <a href="../grdesign/grdesign.html" data-cursor="pointer">Graphic Design </a> </li>
+                    <li> <a href="#" data-cursor="pointer"> Editorial Design </a> </li>
+                </ul>
+
+            </div>
+
+    </header>
+
+
+    
+     <main class="overlaybody">
+                <section>
+                <div class="slider" id="mainSlider">
+                    <div class="sliderText">
+                        <h1 class="slide__title">
+                            Loka Maga- <br>zine.
+                        </h1>
+                        <br>
+                        <p class="slide__text">
+                            I created this project as a final dissertation for my masters degree.
+                            The objective was to redesign the 2000’s Spanish magazine Loka- a VERY bold
+                            publication directed to older teenage girls. The redesign was made with the
+                            intention to appeal to more modern and mature audiences, while still maintaining
+                            the edge of the original publication. <br><br>
+
+                            <span class="slide__disclaimer"> //None of the images or texts are my own.</span>
+
+                        </p>
+                    </div>
+                    <div class=" slideportada">
+                        <img src="./revistajpg/pg01.jpg" alt="Portada" class="portada" draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg02.jpg" alt="Indice" class="slide__content" draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg03.jpg" alt="Pagina 01" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg04.jpg" alt="Pagina 02" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg05.jpg" alt="Pagina 03" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg06.jpg" alt="Pagina 04" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg07.jpg" alt="Pagina 05" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg08.jpg" alt="Pagina 06" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg09.jpg" alt="Pagina 07" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg10.jpg" alt="Pagina 08" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                    <div class="slide">
+                        <img src="./revistajpg/pg11.jpg" alt="Pagina 09" loading="lazy" class="slide__content"
+                            draggable="false">
+                    </div>
+                </div>
+            </section>   
+            <section class="scroll__disclaimer">
+                      <p class="clicktext"> //Scroll or drag to view the page</p>
+             </section>
+
+
+    </main>
+
+    <footer>
+
+
+                <button type="button" class="boton__footer" data-cursor="pointer">
+                    <a href="https://www.pinterest.es/pleurait/_created" target="_blank"> <i
+                            class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i></a>
+                </button>
+                <button type="button" class="boton__footer" data-cursor="pointer"> <a
+                        href="https://twitter.com/pleurait_" target="_blank"> <i class="fa-brands fa-twitter"
+                            style="color: #ffffff;"></i></a> </button>
+                <button type="button" class="boton__footer" data-cursor="pointer"> <a
+                        href="https://www.tiktok.com/@pleurait" target="_blank"> <i class="fa-brands fa-tiktok"
+                            style="color: #ffffff;"></i></a> </button>
+
+     </footer>
+
+
+</body>
+<script src="./magazine.js"></script>
+<script>
+</script>
+
+</html>

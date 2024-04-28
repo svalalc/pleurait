@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../recursosmain/SVG/logoldpi.svg">
+
+
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
+
+    <header>
+        <!-- HEADER QUE SE MUESTRA  -->
+        <div class="header__show">
+            <ul class="list__show">
+                <li><a href="./aboutme.html" data-cursor="pointer"> About me</a></li>
+                <li><a href="../index.html" data-cursor="pointer"> <img src="../recursosmain/logochromeddark.png"
+                            alt="logo" class="mainlogo"></a> </li>
+                <li><span class="headershow__contentjs" data-cursor="pointer"> Works</span></li>
+            </ul>
+        </div>
+
+        <!-- HEADER ESCONDIDO -->
+
+        <div class="header__hidden">
+            <ul class="list__hidden">
+                <li> <a href="../grdesign/grdesign.html" data-cursor="pointer"> Graphic Design </a> </li>
+                <li> <a href="../magazine/magazine.html" data-cursor="pointer">Editorial Design </a> </li>
+            </ul>
+        </div>
+
+        <!-- HEADER RESPONSIVE -->
+        <div class="header__responsive">
+            <button type="button" class="boton__responsive" data-cursor="pointer"><i class="fa-solid fa-bars"
+                    style="color: #ffffff;" id="b1"></i></button>
+
+            <ul class="list__responsive">
+                <li> <a href="../index.html" data-cursor="pointer"> Main </a></li>
+                <li> <a href="./aboutme.html" data-cursor="pointer"> About me </a></li>
+                <li> <a href="../grdesign/grdesign.html" data-cursor="pointer">Graphic Design </a> </li>
+                <li> <a href="../magazine/magazine.html" data-cursor="pointer"> Editorial Design </a> </li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="slideshow-container">
+
+            <div class="slides__aboutme">
+
+                <div class="aboutme__container">
+
+                    <p class="aboutme__text">Hi ! I´m <span class="highlight" data-cursor="pointer">Sofia</span>, <span
+                    class="image1-aboutme"> <img src="../aboutme/recursos/foto1.jpg" data-value='-2'
+                    class="imageshow"></span> also known as pleurait on social media.
+
+                        <br>
+
+                    I’m an <span class="highlight" data-cursor="pointer"> audiovisual communications </span></span>
+                    <span class="image2-aboutme"> <img src="../aboutme/recursos/foto2.jpg" data-value='3' class="imageshow"></span>
+                    graduate with a passion for graphic and editorial design.
+                    </p>
+
+                </div>
+
+                <div class="aboutme__buttoncontainer">
+                    <button class="aboutme__button" data-cursor="pointer" onclick="plusSlides(-1)"><i
+                            class="fa-solid fa-arrow-right" style="color: #f2f2f2;"></i></button>
+                </div>
+            </div>
+
+            <div class="slides__aboutme">
+                <div class="aboutme__container ">
+                    <p class="aboutme__text"> I also dwell in web design--this website is actually a project <span
+                    class="smiley"> ☺ </span>
+
+                    <br>
+                    My works are all defined by <span class="highlight" data-cursor="pointer"> pop culture </span>
+                    <span class="image3-aboutme"> <img src="../aboutme/recursos/mockup1.png" data-value='-2'
+                    class="imageshow"></span> and the <span class="highlight" data-cursor="pointer"> avant garde
+                    </span> <span class="image4-aboutme"> <img src="../aboutme/recursos/mockup2.png" data-value='2' 
+                    class="imageshow"></span>
+                    </p>
+
+                </div>
+
+
+                <div class="aboutme__buttoncontainer">
+                    <button class="aboutme__button  next" data-cursor="pointer" onclick="plusSlides(1)"><i
+                            class="fa-solid fa-arrow-left" style="color: #f2f2f2;"></i></button>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <button type="button" class="boton__footer" data-cursor="pointer">
+            <a href="https://www.pinterest.es/pleurait/_created" target="_blank"> <i class="fa-brands fa-pinterest-p"
+                    style="color: #ffffff;"></i></a>
+        </button>
+        <button type="button" class="boton__footer" data-cursor="pointer"> <a href="https://twitter.com/pleurait_"
+                target="_blank"> <i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> </button>
+        <button type="button" class="boton__footer" data-cursor="pointer"> <a href="https://www.tiktok.com/@pleurait"
+                target="_blank"> <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i></a> </button>
+
+    </footer>
+</body>
+
+<script src="aboutme.js"> </script>
+
+</html>

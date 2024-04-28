@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design</title>
+    <link href="https://fonts.cdnfonts.com/css/akira-expanded" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../recursosmain/SVG/logoldpi.svg">
+</head>
+
+<div id="cursor"></div>
+<div id="cursor-border"></div>
+
+<body>
+    <header>
+            <!-- HEADER QUE SE MUESTRA  -->
+            <div class="header__show">
+                <ul class="list__show">
+                    <li><a href="../aboutme/aboutme.html" data-cursor="pointer"> About me</a></li>
+                    <li><a href="../index.html" data-cursor="pointer"> <img src="../recursosmain/logochromeddark.png"  alt="logo" class="mainlogo"></a> </li>
+                    <li><span class="headershow__contentjs" data-cursor="pointer"> Works</span></li>
+                </ul>
+            </div>
+    
+            <!-- HEADER ESCONDIDO -->
+    
+            <div class="header__hidden">
+                <ul class="list__hidden">
+                    <li> <a href="./grdesign.html" data-cursor="pointer"> Graphic Design </a> </li>
+                    <li> <a href="../magazine/magazine.html" data-cursor="pointer">Editorial Design </a> </li>
+                </ul>
+            </div>
+    
+            <!-- HEADER RESPONSIVE -->
+            <div class="header__responsive">
+                <button type="button" class="boton__responsive" data-cursor="pointer"><i class="fa-solid fa-bars"
+                        style="color: #ffffff;" id="b1"></i></button>
+                        
+                <ul class="list__responsive">
+                    <li> <a href="../index.html" data-cursor="pointer"> Main </a></li>
+                    <li> <a href="../aboutme/aboutme.html" data-cursor="pointer"> About me </a></li>
+                    <li> <a href="./grdesign.html" data-cursor="pointer">Graphic Design </a> </li>
+                    <li> <a href="../magazine/magazine.html" data-cursor="pointer"> Editorial Design </a> </li>
+                </ul>   
+            </div>
+    </header>
+
+
+
+
+    <main class="overlaybody">
+        <section>
+        <div class="slider" id="mainSlider">
+                <div class="grsliderText">
+                    <h2 class="slide__title">
+                        Dis- <br>
+                        play
+                    </h2>
+                    <br>
+                    <p class="slide__text">
+                        I love to create my own display fonts! 
+                        It helps differentiate my projects  
+                        and also ties them all
+                        together. 
+                        I’m really inspired by graffiti artists 
+                         and the digital world.
+                        <br><br>
+                    </p>
+                    <h2 class="slide__disclaimer"> //Here are my works:</h2>
+                    <br><br>
+                    
+                </div>
+                <div class="grslide">
+                    <img src="./recursos/lettering/grills.png" alt="grills" draggable="false" class="grslide__content">
+                </div>
+                <div class="grslide">
+                    <img src="./recursos/lettering/breakingbad.png" alt="breakingbad"  loading="lazy"  draggable="false" class="grslide__content">
+                </div>
+                <div class="grslide">
+                    <img src="./recursos/lettering/amor.png" alt="amor" draggable="false" loading="lazy"  class="grslide__content">
+                </div>
+                <div class="grslide">
+                    <img src="./recursos/lettering/jordan.png" alt="jordan" draggable="false" loading="lazy"  class="grslide__content">
+                </div>
+
+                <div class="grsliderText  personalprojects">
+                    <h2 class="slide__title">
+                       Other<br> pro- <br>jects.
+                    </h2>
+                    <br>
+                    <p class="slide__text">
+                        I recently started a tiktok account where I upload personal projects,
+                        mainly based on anime and fandom culture. <br> <br>
+                    </p>
+                    <h2 class="slide__disclaimer"> //Click or hover to play</h2>
+              
+                </div>
+
+                <div class="videoslide__container" data-cursor="hover">
+                    <video muted loop disablepictureinpicture disableremoteplayback loading="lazy" class="videoslide">
+                        <source src="./recursos/videos/01.mp4" type="video/mp4"  data-cursor="hover">
+                    </video>
+                </div>
+
+                <div class="videoslide__container"  data-cursor="hover">
+                    <video muted loop disablepictureinpicture  disableremoteplayback loading="lazy" class="videoslide">
+                        <source src="./recursos/videos/02.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="videoslide__container" data-cursor="hover">
+                    <video  muted loop disablepictureinpicture disableremoteplayback loading="lazy" class="videoslide">
+                        <source src="./recursos/videos/03.mp4" type="video/mp4" data-cursor="hover">
+                    </video>
+                </div>
+            </section>
+
+                    
+        <section class="scroll__disclaimer">
+            <p class="clicktext"> //Scroll or drag to view the page</p>
+        </section>
+
+    </main>
+
+
+        <footer>
+            <button type="button" class="boton__footer" id="footer__pinterest" data-cursor="pointer">
+                <a href="https://www.pinterest.es/pleurait/_created" target="_blank"> <i class="fa-brands fa-pinterest-p" id="b2" style="color: #ffffff;"></i></a>
+            </button>
+            <button type="button" class="boton__footer" id="footer__twitter" data-cursor="pointer"> <a href="https://twitter.com/pleurait_" target="_blank"> <i
+                        class="fa-brands fa-twitter" id="b3" style="color: #ffffff;"></i></a> </button>
+            <button type="button" class="boton__footer" id="footer__tiktok" data-cursor="pointer"> <a href="https://www.tiktok.com/@pleurait" target="_blank"> <i
+                        class="fa-brands fa-tiktok" id="b4" style="color: #ffffff;"></i></a> </button>
+
+        </footer>
+</body>
+<script src="./grdesign.js"></script>
+
+</html>
